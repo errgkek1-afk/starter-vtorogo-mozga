@@ -1,0 +1,17 @@
+{
+  "name": "starter-vtorogo-mozga",
+  "version": "1.0.0",
+  "recipient_values_in_template": false,
+  "author_personal_data_in_package": false,
+  "first_run": "SKILL.md",
+  "default_setup": "draft",
+  "default_delivery": "local",
+  "default_external_actions": false,
+  "changes_without_confirmation": false,
+  "state_directory": "plans/ в проекте получателя (план прогресса)",
+  "tested_dependencies": {
+    "python": ">=3.8, только стандартная библиотека"
+  },
+  "local_tests": "11.11.2026: прогон в пустой папке на выдуманном бизнесе (Claude Code и Codex в одной папке) - второй мозг 61 строка, проверка без проблем, манифест сошёлся, токен из ответа владельца в файлы не попал",
+  "release_id": "a548176e3ca07b83"
+}

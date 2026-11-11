@@ -1,0 +1,66 @@
+{
+  "name": "starter-vtorogo-mozga",
+  "version": "1.0.0",
+  "files": {
+    "GIFT-LICENSE.md": {
+      "bytes": 737,
+      "sha256": "1036a154049deea259177d2376d79ade8dbb7ecc6f39a59807310a8840ed8ba6"
+    },
+    "LICENSE.md": {
+      "bytes": 2033,
+      "sha256": "9e9e303b95fa6a679519a1988cefdc77666f0e186c1650e3302ef771626ba2a4"
+    },
+    "LICENSE.txt": {
+      "bytes": 746,
+      "sha256": "f288f494e7868c110e0aa360feb352249c4bb3c963e74f0f00e646ac82d809d4"
+    },
+    "README.md": {
+      "bytes": 2385,
+      "sha256": "21e5fa84273b364a2a628109e374aba142b9ba78a17f77496693e8241e0d2820"
+    },
+    "SKILL.md": {
+      "bytes": 22897,
+      "sha256": "3390d80136293c498066f6cf4ffc2f92ef4d12dae7ed41b2677d29a2bcfae2ff"
+    },
+    "install-prompt.txt": {
+      "bytes": 2230,
+      "sha256": "b8d5f7f1a63e9701a2669c4c9bb6fb4982c350051c94f675f5c368c5925a2e25"
+    },
+    "package-status.json": {
+      "bytes": 910,
+      "sha256": "fd4c554d1c6570ab978870e3e64348d878d078a0d201e4c900daef3af44cf1f3"
+    },
+    "prompts/pohudenie.md": {
+      "bytes": 1327,
+      "sha256": "d7ba10c3b19de6f0e383decad9bb3cee079c03c6976566fc3f779cd601d69ad5"
+    },
+    "shablony/ai-clone.md": {
+      "bytes": 869,
+      "sha256": "6b3373677aff31df7072ba65edb80b69ff4ecf715e008ea7c34ce55427e84d37"
+    },
+    "shablony/business.md": {
+      "bytes": 891,
+      "sha256": "b69d0b0ebdf830d52cd1b60997cf3a8196751341f844374bc366dbf46a1e873c"
+    },
+    "shablony/goals.md": {
+      "bytes": 378,
+      "sha256": "b9de6b3b207ab4aa75b111365e134516fd74e0f3e23b90a2ab73aeb1e5319c78"
+    },
+    "shablony/plan.md": {
+      "bytes": 1215,
+      "sha256": "ef9f9053f1d06192828952f86aa25254a5b26376076aae9952fe97be686676da"
+    },
+    "shablony/pravilo.md": {
+      "bytes": 883,
+      "sha256": "0963ba15ac73d427c22d2d5d432196ade1ce71e04ccee6b210623f97ecc7fb1f"
+    },
+    "shablony/skelet.md": {
+      "bytes": 3739,
+      "sha256": "e27fb24408cd693f7a5c547ba95270cfdad10bb5bce1dbe0a83a8188b03705ab"
+    },
+    "tools/check-claude-md.py": {
+      "bytes": 8705,
+      "sha256": "aead5c004b2bebdc7239d664835ab0740662ecacf3aa7f0ebc7d791cc1031e4e"
+    }
+  }
+}
