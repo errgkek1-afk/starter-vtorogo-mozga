@@ -1,6 +1,6 @@
 {
   "name": "starter-vtorogo-mozga",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "files": {
     "GIFT-LICENSE.md": {
       "bytes": 737,
@@ -12,35 +12,39 @@
     },
     "LICENSE.txt": {
       "bytes": 746,
-      "sha256": "f288f494e7868c110e0aa360feb352249c4bb3c963e74f0f00e646ac82d809d4"
+      "sha256": "2abed493adefca8774e6603aed4db0f1f9908a28e1b245bdc0e185cc0155af4d"
     },
     "README.md": {
-      "bytes": 2385,
-      "sha256": "21e5fa84273b364a2a628109e374aba142b9ba78a17f77496693e8241e0d2820"
+      "bytes": 3051,
+      "sha256": "a412185bdd6f03a188eb9ebbab29d9f80d0f0ba463d35486a1bb184ff3ed30d0"
     },
     "SKILL.md": {
-      "bytes": 22897,
-      "sha256": "3390d80136293c498066f6cf4ffc2f92ef4d12dae7ed41b2677d29a2bcfae2ff"
+      "bytes": 29910,
+      "sha256": "d81cc60225794f4bc44c9ddc2180ab351095ff1bd5f752d6f036a636570e1491"
     },
     "install-prompt.txt": {
       "bytes": 2230,
-      "sha256": "b8d5f7f1a63e9701a2669c4c9bb6fb4982c350051c94f675f5c368c5925a2e25"
+      "sha256": "33c850ff2b3ae801dbb3a05a1b52b43b6a28c8352bb79146806c81a24e47f420"
     },
     "package-status.json": {
-      "bytes": 910,
-      "sha256": "fd4c554d1c6570ab978870e3e64348d878d078a0d201e4c900daef3af44cf1f3"
+      "bytes": 1581,
+      "sha256": "ce17e7609af90d20ea3613caf279db05458b3a8d4f60d2356f100e3b8f56c4b6"
     },
     "prompts/pohudenie.md": {
       "bytes": 1327,
       "sha256": "d7ba10c3b19de6f0e383decad9bb3cee079c03c6976566fc3f779cd601d69ad5"
     },
     "shablony/ai-clone.md": {
-      "bytes": 869,
-      "sha256": "6b3373677aff31df7072ba65edb80b69ff4ecf715e008ea7c34ce55427e84d37"
+      "bytes": 1214,
+      "sha256": "b67548b5f4d8e459246725fe6e09de390b47fc0962426bf821b5e2779b24130c"
     },
     "shablony/business.md": {
       "bytes": 891,
       "sha256": "b69d0b0ebdf830d52cd1b60997cf3a8196751341f844374bc366dbf46a1e873c"
+    },
+    "shablony/feedback.md": {
+      "bytes": 5678,
+      "sha256": "c0dedd95bec949835720ef1602590fa003d50308771b8061faa7ff2eac75ec02"
     },
     "shablony/goals.md": {
       "bytes": 378,
@@ -51,16 +55,16 @@
       "sha256": "ef9f9053f1d06192828952f86aa25254a5b26376076aae9952fe97be686676da"
     },
     "shablony/pravilo.md": {
-      "bytes": 883,
-      "sha256": "0963ba15ac73d427c22d2d5d432196ade1ce71e04ccee6b210623f97ecc7fb1f"
+      "bytes": 1230,
+      "sha256": "e5c2e20120138bcf05ef546002b14ba3403e7c9ab48ae6d5f6dd14c16bfbd959"
     },
     "shablony/skelet.md": {
-      "bytes": 3739,
-      "sha256": "e27fb24408cd693f7a5c547ba95270cfdad10bb5bce1dbe0a83a8188b03705ab"
+      "bytes": 5171,
+      "sha256": "a4f56758871de901d526ef89f5b7ceb764b68ed7e0017295cf57eb1348724ada"
     },
     "tools/check-claude-md.py": {
-      "bytes": 8705,
-      "sha256": "aead5c004b2bebdc7239d664835ab0740662ecacf3aa7f0ebc7d791cc1031e4e"
+      "bytes": 10493,
+      "sha256": "d86f02aae1dbcca8cda4bd13961e09fa731e40c555a271dba4dafc509851a522"
     }
   }
 }

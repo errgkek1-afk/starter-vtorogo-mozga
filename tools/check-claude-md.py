@@ -8,7 +8,8 @@
   4. нет ли дублей: одна строка и во втором мозге, и в файле правил;
   5. нет ли похожего на ключи, токены и пароли - во втором мозге, в его
      копиях *.bak* и в папках ai-clone/, business/, rules/, plans/, prompts/;
-  6. не вышел ли файл за потолок, записанный в нём самом, а если его нет - 200 строк.
+  6. не вышел ли файл за потолок, записанный в нём самом, а если его нет - 200 строк;
+  7. есть ли папка правок ai-clone/feedback/ с шаблоном и ведёт ли туда второй мозг.
 
 Запуск из папки проекта:
     python3 tools/check-claude-md.py            # найдёт AGENTS.md или CLAUDE.md сам
@@ -179,6 +180,28 @@ otkuda = "записан в файле" if m else "по умолчанию"
 print(f"  {len(stroki)} строк, потолок {potolok} ({otkuda})")
 if len(stroki) > potolok:
     problemy.append(f"{imya_mozga} - {len(stroki)} строк при потолке {potolok}: вынеси справочное в папки или дай промпт похудения")
+
+# --- 7. папка правок ---
+razdel("7. Папка правок")
+PRAVKI = "ai-clone/feedback"
+if os.path.isdir(PRAVKI):
+    shablon = os.path.isfile(os.path.join(PRAVKI, "TEMPLATE.md"))
+    print(f"  {'ok  ' if shablon else 'НЕТ '} {PRAVKI}/TEMPLATE.md")
+    if not shablon:
+        problemy.append(f"в {PRAVKI}/ нет шаблона TEMPLATE.md - агент не знает, как записать правку")
+    vedyot = PRAVKI in tekst
+    print(f"  {'ok  ' if vedyot else 'НЕТ '} второй мозг ведёт в {PRAVKI}/")
+    if not vedyot:
+        problemy.append(f"папка {PRAVKI}/ есть, а второй мозг на неё не ведёт - правки лежат мёртвым грузом: строка в «Всегда» и в таблице отделов")
+    velit = f"{PRAVKI}/TEMPLATE.md" in tekst
+    print(f"  {'ok  ' if velit else 'НЕТ '} второй мозг велит записывать правку по {PRAVKI}/TEMPLATE.md")
+    if vedyot and not velit:
+        problemy.append(f"во втором мозге нет строки «Всегда» про запись правки по {PRAVKI}/TEMPLATE.md - агент знает папку, но правки туда не пишет")
+    pravok = [i for i in os.listdir(PRAVKI) if i.endswith(".md") and i != "TEMPLATE.md"]
+    print(f"  записанных правок: {len(pravok)}")
+else:
+    print(f"  папки {PRAVKI}/ нет")
+    problemy.append(f"нет папки правок {PRAVKI}/ - правку агенту некуда записать: скажи агенту «дособери папку правок»")
 
 # --- ИТОГ ---
 razdel("ИТОГ")
